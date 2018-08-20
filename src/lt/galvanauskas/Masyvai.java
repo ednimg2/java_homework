@@ -34,14 +34,15 @@ public class Masyvai {
 			int sk = sc.nextInt();
 			masyvas3[i] = sk;
 			i++;
+			suma3 += sk;
 			if(i >= 5) {
 				on = false;
 			}
 		}
-		for(int c : masyvas3) {
-			suma3 += c;
-		}
 		System.out.println(suma3);
+		
+		
+		/* 4 uzduotis */
 		
 		System.out.println("Iveskite masyvo dydi");
 		int masyvoDydis = sc.nextInt();
