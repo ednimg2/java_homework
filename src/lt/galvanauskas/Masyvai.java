@@ -24,6 +24,8 @@ public class Masyvai {
 		}
 		System.out.println(masyvasKopija[0]);
 		
+		/* 3 uzduotis */
+		
 		Scanner sc = new Scanner(System.in);
 		int[] masyvas3 = new int[5];
 		boolean on = true;
